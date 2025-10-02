@@ -51,6 +51,7 @@
     enable = true;
     userName = "EarthMessenger";
     userEmail = "me@earthmessenger.xyz";
+    signing.key = "4815D6A57D0AA5EB";
   };
 
   programs.uv = {

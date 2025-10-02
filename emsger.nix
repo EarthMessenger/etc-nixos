@@ -14,7 +14,6 @@
     nodejs
     pnpm
     jupyter
-    uv
     gcc
 
     clash-verge-rev
@@ -53,6 +52,13 @@
     enable = true;
     userName = "EarthMessenger";
     userEmail = "me@earthmessenger.xyz";
+  };
+
+  programs.uv = {
+    enable = true;
+    settings = {
+      pip.index-url = "https://mirrors.ustc.edu.cn/pypi/web/simple";
+    };
   };
 
   xdg.dataFile."fcitx5/rime/default.custom.yaml".source = (pkgs.formats.yaml { }).generate "default.custom.yaml" {

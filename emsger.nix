@@ -16,7 +16,6 @@
     jupyter
     gcc
 
-    clash-verge-rev
     keepassxc
     qq
     telegram-desktop
@@ -60,6 +59,12 @@
       pip.index-url = "https://mirrors.ustc.edu.cn/pypi/web/simple";
     };
   };
+
+  programs.clash-verge = {
+    enable = true;
+    autoStart = true;
+    serviceMode = true;
+  }
 
   xdg.dataFile."fcitx5/rime/default.custom.yaml".source = (pkgs.formats.yaml { }).generate "default.custom.yaml" {
     patch = {

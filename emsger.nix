@@ -10,11 +10,19 @@
     zoxide
     ripgrep
 
+    bun
+    nodejs
+    pnpm
+    python3
+    jupyter
+    gcc
+
     clash-verge-rev
     keepassxc
     qq
     telegram-desktop
     vscode
+    yt-dlp
 
     prismlauncher
   ];
@@ -49,11 +57,7 @@
 
   xdg.dataFile."fcitx5/rime/default.custom.yaml".source = (pkgs.formats.yaml { }).generate "default.custom.yaml" {
     patch = {
-      schema_list = [
-        {
-          "schema" = "double_pinyin";
-        }
-      ];
+      __include = "rime_ice_suggestion:/";
     };
   };
 }

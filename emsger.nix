@@ -8,6 +8,7 @@
   home.packages = with pkgs; [
     fd
     zoxide
+    ripgrep
 
     clash-verge-rev
     keepassxc

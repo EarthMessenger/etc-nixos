@@ -46,4 +46,14 @@
     userName = "EarthMessenger";
     userEmail = "me@earthmessenger.xyz";
   };
+
+  xdg.dataFile."fcitx5/rime/default.custom.yaml".source = (pkgs.formats.yaml { }).generate "default.custom.yaml" {
+    patch = {
+      schema_list = [
+        {
+          "schema" = "double_pinyin";
+        }
+      ];
+    };
+  };
 }

@@ -60,12 +60,6 @@
     };
   };
 
-  programs.clash-verge = {
-    enable = true;
-    autoStart = true;
-    serviceMode = true;
-  }
-
   xdg.dataFile."fcitx5/rime/default.custom.yaml".source = (pkgs.formats.yaml { }).generate "default.custom.yaml" {
     patch = {
       __include = "rime_ice_suggestion:/";

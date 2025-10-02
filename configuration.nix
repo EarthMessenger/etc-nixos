@@ -116,6 +116,12 @@
     enableSSHSupport = true;
   };
 
+  programs.clash-verge = {
+    enable = true;
+    autoStart = true;
+    serviceMode = true;
+  };
+
   services.openssh.enable = true;
 
   # Open ports in the firewall.

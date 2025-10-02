@@ -122,6 +122,8 @@
     serviceMode = true;
   };
 
+  programs.nix-ld.enable = true;
+
   services.openssh.enable = true;
 
   # Open ports in the firewall.

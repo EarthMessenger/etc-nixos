@@ -54,7 +54,11 @@
       fcitx5 = {
         waylandFrontend = true;
         addons = with pkgs; [
-          fcitx5-rime
+          (fcitx5-rime.override {
+            rimeDataPkgs = [
+              rime-ice
+            ];
+          })
           fcitx5-gtk
           libsForQt5.fcitx5-qt
           kdePackages.fcitx5-chinese-addons

@@ -100,6 +100,7 @@
   environment.systemPackages = with pkgs; [
     vim-full
     git
+    busybox
   ];
 
   environment.sessionVariables = {

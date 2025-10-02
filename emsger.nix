@@ -13,8 +13,8 @@
     bun
     nodejs
     pnpm
-    python3
     jupyter
+    uv
     gcc
 
     clash-verge-rev

@@ -19,6 +19,7 @@
     keepassxc
     qq
     telegram-desktop
+    vlc
     vscode
     yt-dlp
 

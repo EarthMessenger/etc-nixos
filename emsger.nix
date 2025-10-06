@@ -22,6 +22,7 @@
     vlc
     vscode
     yt-dlp
+    jan
 
     prismlauncher
   ];

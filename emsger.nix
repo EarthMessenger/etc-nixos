@@ -7,6 +7,7 @@
 
   home.packages = with pkgs; [
     fd
+    jq
     zoxide
     ripgrep
 
@@ -22,7 +23,6 @@
     vlc
     vscode
     yt-dlp
-    jan
 
     prismlauncher
   ];

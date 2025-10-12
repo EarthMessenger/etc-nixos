@@ -68,4 +68,21 @@
       __include = "rime_ice_suggestion:/";
     };
   };
+
+  fonts.fontconfig = {
+    defaultFonts = {
+      emoji = [
+        "Twitter Color Emoji"
+      ];
+      monospace = [
+        "Iosevka"
+      ];
+      sansSerif = [
+        "Noto Sans CJK TC"
+      ];
+      serif = [
+        "Noto Serif CJK TC"
+      ];
+    };
+  };
 }

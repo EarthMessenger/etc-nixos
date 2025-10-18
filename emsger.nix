@@ -23,6 +23,7 @@
     vlc
     vscode
     yt-dlp
+    zed-editor
 
     prismlauncher
   ];

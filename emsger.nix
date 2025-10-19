@@ -24,6 +24,8 @@
     vscode
     yt-dlp
     zed-editor
+    libreoffice-qt
+    hunspell
 
     prismlauncher
   ];

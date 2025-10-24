@@ -17,6 +17,9 @@
     jupyter
     gcc
 
+    nil
+    nixd
+
     keepassxc
     qq
     telegram-desktop

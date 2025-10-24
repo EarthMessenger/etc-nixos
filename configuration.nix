@@ -5,9 +5,9 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
+  imports = [
     ./hardware-configuration.nix
+    ./fcitx5-patch.nix
   ];
 
   boot.loader = {

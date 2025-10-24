@@ -27,6 +27,8 @@
     vscode
     yt-dlp
     zed-editor
+    anki-bin
+
     libreoffice-qt
     hunspell
 

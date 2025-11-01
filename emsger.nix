@@ -53,7 +53,7 @@
   programs.bash = {
     enable = true;
     shellAliases = {
-      lh = "ls -lh";
+      la = "ls -a";
     };
   };
 

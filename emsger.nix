@@ -59,9 +59,16 @@
 
   programs.git = {
     enable = true;
-    userName = "EarthMessenger";
-    userEmail = "me@earthmessenger.xyz";
-    signing.key = "4815D6A57D0AA5EB";
+    settings = {
+      user = {
+        name = "EarthMessenger";
+        email = "me@earthmessenger.xyz";
+        signingKey = "4815D6A57D0AA5EB";
+      };
+      http = {
+        proxy = "http://localhost:7897";
+      };
+    };
   };
 
   programs.uv = {

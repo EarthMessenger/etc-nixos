@@ -7,7 +7,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./fcitx5-patch.nix
   ];
 
   boot.loader = {

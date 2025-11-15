@@ -74,7 +74,7 @@
   programs.uv = {
     enable = true;
     settings = {
-      pip.index-url = "https://mirrors.ustc.edu.cn/pypi/web/simple";
+      pip.index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple";
     };
   };
 
